@@ -6,17 +6,15 @@
     <link href='style.css' rel='stylesheet'>
     <link href='//dash_ref/Category/Editor Navigation/1'>
     <link href='//dash_ref_Editor Navigation/Entry/Open quickly/0'>
-    <link href='//dash_ref_Editor Navigation/Entry/Move focus to editor/0'>
     <link href='//dash_ref_Editor Navigation/Entry/Select current file in project navigator/0'>
-    <link href='//dash_ref_Editor Navigation/Entry/Next counterpart/0'>
-    <link href='//dash_ref_Editor Navigation/Entry/Previous counterpart/0'>
-    <link href='//dash_ref_Editor Navigation/Entry/View counterpart in assistant editor/0'>
-    <link href='//dash_ref_Editor Navigation/Entry/Previous recent file/0'>
-    <link href='//dash_ref_Editor Navigation/Entry/Next recent file/0'>
+    <link href='//dash_ref_Editor Navigation/Entry/Next%2FPrevious counterpart/0'>
+    <link href='//dash_ref_Editor Navigation/Entry/View previous%2Fnext counterpart in assistant editor/0'>
+    <link href='//dash_ref_Editor Navigation/Entry/Show version editor/0'>
+    <link href='//dash_ref_Editor Navigation/Entry/Show comparison view in version editor. (Shortcut is a suggestion)/0'>
+    <link href='//dash_ref_Editor Navigation/Entry/Previous%2FNext recent file/0'>
     <link href='//dash_ref_Editor Navigation/Entry/Definition of symbol/0'>
     <link href='//dash_ref_Editor Navigation/Entry/Go to line/0'>
-    <link href='//dash_ref_Editor Navigation/Entry/Fold section/0'>
-    <link href='//dash_ref_Editor Navigation/Entry/Unfold section/0'>
+    <link href='//dash_ref_Editor Navigation/Entry/Fold%2FUnfold section/0'>
     <link href='//dash_ref_Editor Navigation/Entry/Show related items/0'>
     <link href='//dash_ref_Editor Navigation/Entry/Show previous history/0'>
     <link href='//dash_ref_Editor Navigation/Entry/Show next history/0'>
@@ -26,19 +24,22 @@
     <link href='//dash_ref/Category/Editing/1'>
     <link href='//dash_ref_Editing/Entry/Show assistant editor/0'>
     <link href='//dash_ref_Editing/Entry/Hide assistant editor/0'>
-    <link href='//dash_ref_Editing/Entry/Toggle completion/0'>
+    <link href='//dash_ref_Editing/Entry/Toggle autocompletion/0'>
     <link href='//dash_ref_Editing/Entry/Edit all in scope/0'>
-    <link href='//dash_ref_Editing/Entry/Increase indentation/0'>
-    <link href='//dash_ref_Editing/Entry/Decrease indentation/0'>
+    <link href='//dash_ref_Editing/Entry/Increase%2FDecrease indentation/0'>
     <link href='//dash_ref_Editing/Entry/Fix indentation/0'>
     <link href='//dash_ref_Editing/Entry/Comment or uncomment/0'>
-    <link href='//dash_ref_Editing/Entry/Move line up/0'>
-    <link href='//dash_ref_Editing/Entry/Move line down/0'>
+    <link href='//dash_ref_Editing/Entry/Move line up%2Fdown/0'>
     <link href='//dash_ref/Category/Search/1'>
     <link href='//dash_ref_Search/Entry/Find in file/0'>
     <link href='//dash_ref_Search/Entry/Find and replace in file/0'>
     <link href='//dash_ref_Search/Entry/Find in project/0'>
     <link href='//dash_ref_Search/Entry/Find and replace in project/0'>
+    <link href='//dash_ref/Category/Source Control/1'>
+    <link href='//dash_ref_Source Control/Entry/Commit/0'>
+    <link href='//dash_ref_Source Control/Entry/Discard all changes (Shortcut is a suggestion)/0'>
+    <link href='//dash_ref_Source Control/Entry/Push (Shortcut is a suggestion)/0'>
+    <link href='//dash_ref_Source Control/Entry/Pull/0'>
     <link href='//dash_ref/Category/Navigator/1'>
     <link href='//dash_ref_Navigator/Entry/Show or hide navigator/0'>
     <link href='//dash_ref_Navigator/Entry/Project navigator/0'>
@@ -50,7 +51,6 @@
     <link href='//dash_ref_Navigator/Entry/Breakpoint navigator/0'>
     <link href='//dash_ref_Navigator/Entry/Log navigator/0'>
     <link href='//dash_ref_Navigator/Entry/Open in assistant navigator/0'>
-    <link href='//dash_ref_Navigator/Entry/Decide where to open/0'>
     <link href='//dash_ref/Category/Debugging/1'>
     <link href='//dash_ref_Debugging/Entry/Toggle debug area/0'>
     <link href='//dash_ref_Debugging/Entry/Next issue/0'>
@@ -106,17 +106,6 @@
                 <div class='notes'></div>
               </td>
             </tr>
-            <tr id='//dash_ref_Editor Navigation/Entry/Move focus to editor/0'>
-              <td class='command'>
-                <p>
-                  <code>CMD+J</code>
-                </p>
-              </td>
-              <td class='description'>
-                <div class='name'><p>Move focus to editor</p></div>
-                <div class='notes'></div>
-              </td>
-            </tr>
             <tr id='//dash_ref_Editor Navigation/Entry/Select current file in project navigator/0'>
               <td class='command'>
                 <p>
@@ -128,63 +117,75 @@
                 <div class='notes'></div>
               </td>
             </tr>
-            <tr id='//dash_ref_Editor Navigation/Entry/Next counterpart/0'>
+            <tr id='//dash_ref_Editor Navigation/Entry/Next%2FPrevious counterpart/0'>
               <td class='command'>
                 <p>
                   <code>CMD+CTRL+Arrow Up</code>
                 </p>
-              </td>
-              <td class='description'>
-                <div class='name'><p>Next counterpart</p></div>
-                <div class='notes'></div>
-              </td>
-            </tr>
-            <tr id='//dash_ref_Editor Navigation/Entry/Previous counterpart/0'>
-              <td class='command'>
                 <p>
                   <code>CMD+CTRL+Arrow Down</code>
                 </p>
               </td>
               <td class='description'>
-                <div class='name'><p>Previous counterpart</p></div>
+                <div class='name'><p>Next/Previous counterpart</p></div>
                 <div class='notes'></div>
               </td>
             </tr>
-            <tr id='//dash_ref_Editor Navigation/Entry/View counterpart in assistant editor/0'>
+            <tr id='//dash_ref_Editor Navigation/Entry/View previous%2Fnext counterpart in assistant editor/0'>
               <td class='command'>
                 <p>
-                  <code>CMD+ALT+SHIFT+Z</code>
+                  <code>CMD+ALT+CTRL+Arrow Up</code>
+                </p>
+                <p>
+                  <code>CMD+ALT+CTRL+Arrow Down</code>
                 </p>
               </td>
               <td class='description'>
-                <div class='name'><p>View counterpart in assistant editor</p></div>
+                <div class='name'><p>View previous/next counterpart in assistant editor</p></div>
                 <div class='notes'></div>
               </td>
             </tr>
-            <tr id='//dash_ref_Editor Navigation/Entry/Previous recent file/0'>
+            <tr id='//dash_ref_Editor Navigation/Entry/Show version editor/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+Shift+Enter</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Show version editor</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editor Navigation/Entry/Show comparison view in version editor. (Shortcut is a suggestion)/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+CTRL+Shift+Enter</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Show comparison view in version editor. (Shortcut is a suggestion)</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editor Navigation/Entry/Previous%2FNext recent file/0'>
               <td class='command'>
                 <p>
                   <code>CMD+CTRL+Arrow Left</code>
                 </p>
-              </td>
-              <td class='description'>
-                <div class='name'><p>Previous recent file</p></div>
-                <div class='notes'></div>
-              </td>
-            </tr>
-            <tr id='//dash_ref_Editor Navigation/Entry/Next recent file/0'>
-              <td class='command'>
                 <p>
                   <code>CMD+CTRL+Arrow Right</code>
                 </p>
               </td>
               <td class='description'>
-                <div class='name'><p>Next recent file</p></div>
+                <div class='name'><p>Previous/Next recent file</p></div>
                 <div class='notes'></div>
               </td>
             </tr>
             <tr id='//dash_ref_Editor Navigation/Entry/Definition of symbol/0'>
               <td class='command'>
+                <p>
+                  <code>CMD+J</code>
+                </p>
                 <p>
                   <code>CMD+Click</code>
                 </p>
@@ -205,25 +206,17 @@
                 <div class='notes'></div>
               </td>
             </tr>
-            <tr id='//dash_ref_Editor Navigation/Entry/Fold section/0'>
+            <tr id='//dash_ref_Editor Navigation/Entry/Fold%2FUnfold section/0'>
               <td class='command'>
                 <p>
                   <code>CMD+ALT+Arrow Left</code>
                 </p>
-              </td>
-              <td class='description'>
-                <div class='name'><p>Fold section</p></div>
-                <div class='notes'></div>
-              </td>
-            </tr>
-            <tr id='//dash_ref_Editor Navigation/Entry/Unfold section/0'>
-              <td class='command'>
                 <p>
                   <code>CMD+CTRL+Arrow Right</code>
                 </p>
               </td>
               <td class='description'>
-                <div class='name'><p>Unfold section</p></div>
+                <div class='name'><p>Fold/Unfold section</p></div>
                 <div class='notes'></div>
               </td>
             </tr>
@@ -324,14 +317,14 @@
                 <div class='notes'></div>
               </td>
             </tr>
-            <tr id='//dash_ref_Editing/Entry/Toggle completion/0'>
+            <tr id='//dash_ref_Editing/Entry/Toggle autocompletion/0'>
               <td class='command'>
                 <p>
                   <code>CTRL+Space</code>
                 </p>
               </td>
               <td class='description'>
-                <div class='name'><p>Toggle completion</p></div>
+                <div class='name'><p>Toggle autocompletion</p></div>
                 <div class='notes'></div>
               </td>
             </tr>
@@ -346,25 +339,17 @@
                 <div class='notes'></div>
               </td>
             </tr>
-            <tr id='//dash_ref_Editing/Entry/Increase indentation/0'>
+            <tr id='//dash_ref_Editing/Entry/Increase%2FDecrease indentation/0'>
               <td class='command'>
                 <p>
                   <code>CMD+]</code>
                 </p>
-              </td>
-              <td class='description'>
-                <div class='name'><p>Increase indentation</p></div>
-                <div class='notes'></div>
-              </td>
-            </tr>
-            <tr id='//dash_ref_Editing/Entry/Decrease indentation/0'>
-              <td class='command'>
                 <p>
                   <code>CMD+[</code>
                 </p>
               </td>
               <td class='description'>
-                <div class='name'><p>Decrease indentation</p></div>
+                <div class='name'><p>Increase/Decrease indentation</p></div>
                 <div class='notes'></div>
               </td>
             </tr>
@@ -390,25 +375,17 @@
                 <div class='notes'></div>
               </td>
             </tr>
-            <tr id='//dash_ref_Editing/Entry/Move line up/0'>
+            <tr id='//dash_ref_Editing/Entry/Move line up%2Fdown/0'>
               <td class='command'>
                 <p>
                   <code>CMD+ALT+[</code>
                 </p>
-              </td>
-              <td class='description'>
-                <div class='name'><p>Move line up</p></div>
-                <div class='notes'></div>
-              </td>
-            </tr>
-            <tr id='//dash_ref_Editing/Entry/Move line down/0'>
-              <td class='command'>
                 <p>
                   <code>CMD+ALT+]</code>
                 </p>
               </td>
               <td class='description'>
-                <div class='name'><p>Move line down</p></div>
+                <div class='name'><p>Move line up/down</p></div>
                 <div class='notes'></div>
               </td>
             </tr>
@@ -462,6 +439,59 @@
               </td>
               <td class='description'>
                 <div class='name'><p>Find and replace in project</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Source Control/1'>
+          Source Control
+        </h2>
+        <div class='scrollable'>
+          <table>
+            <tr id='//dash_ref_Source Control/Entry/Commit/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+CMD+C</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Commit</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Source Control/Entry/Discard all changes (Shortcut is a suggestion)/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+CMD+D</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Discard all changes (Shortcut is a suggestion)</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Source Control/Entry/Push (Shortcut is a suggestion)/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+CMD+P</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Push (Shortcut is a suggestion)</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Source Control/Entry/Pull/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+CMD+X</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Pull</p></div>
                 <div class='notes'></div>
               </td>
             </tr>
@@ -581,17 +611,6 @@
               </td>
               <td class='description'>
                 <div class='name'><p>Open in assistant navigator</p></div>
-                <div class='notes'></div>
-              </td>
-            </tr>
-            <tr id='//dash_ref_Navigator/Entry/Decide where to open/0'>
-              <td class='command'>
-                <p>
-                  <code>ALT+SHIFT+Click</code>
-                </p>
-              </td>
-              <td class='description'>
-                <div class='name'><p>Decide where to open</p></div>
                 <div class='notes'></div>
               </td>
             </tr>
@@ -939,7 +958,7 @@
       </section>
     </article>
     <footer>
-      You can modify and improve this cheat sheet <a onclick="window.dash.openExternal_(this.href); return false;" href="https://github.com/joquerod/dashcheatsheets">here</a>
+      You can modify and improve this cheat sheet <a onclick="window.dash.openExternal_(this.href); return false;" href="http://cheat.kapeli.com">here</a>
     </footer>
   </body>
 </html>

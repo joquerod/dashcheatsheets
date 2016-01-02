@@ -30,7 +30,7 @@ cheatsheet do
     end
     entry do
       command 'CMD+ALT+CTRL+Shift+Enter'
-      name 'Show comparison view in version editor. (Shortcut is a suggestion)''
+      name 'Show comparison view in version editor. (Shortcut is a suggestion)'
     end
     entry do
       command 'CMD+CTRL+Arrow Left'
@@ -227,7 +227,6 @@ cheatsheet do
     end
   end
 
-
   category do
     id 'Documentation'
     entry do
@@ -245,7 +244,6 @@ cheatsheet do
       name 'Show documentation for symbol'
     end
   end
-
 
   category do
     id 'Build & Run'
@@ -278,7 +276,6 @@ cheatsheet do
       name 'Clean'
     end
   end
-
 
   category do
     id 'Utilities'
@@ -327,4 +324,5 @@ cheatsheet do
       name 'Media library'
     end
   end
+
 end
