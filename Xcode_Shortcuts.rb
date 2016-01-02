@@ -2,7 +2,7 @@ cheatsheet do
   title 'Xcode'
   docset_file_name 'Xcode_Shortcuts'
   keyword 'xcode'
-  source_url 'https://github.com/joquerod/dashcheatsheets'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Editor Navigation'
@@ -11,34 +11,34 @@ cheatsheet do
       name 'Open quickly'
     end
     entry do
-      command 'CMD+J'
-      name 'Move focus to editor'
-    end
-    entry do
       command 'CMD+SHIFT+J'
       name 'Select current file in project navigator'
     end
     entry do
       command 'CMD+CTRL+Arrow Up'
-      name 'Next counterpart'
-    end
-    entry do
       command 'CMD+CTRL+Arrow Down'
-      name 'Previous counterpart'
+      name 'Next/Previous counterpart'
     end
     entry do
-      command 'CMD+ALT+SHIFT+Z'
-      name 'View counterpart in assistant editor'
+      command 'CMD+ALT+CTRL+Arrow Up'
+      command 'CMD+ALT+CTRL+Arrow Down'
+      name 'View previous/next counterpart in assistant editor'
+    end
+    entry do
+      command 'CMD+ALT+Shift+Enter'
+      name 'Show version editor'
+    end
+    entry do
+      command 'CMD+ALT+CTRL+Shift+Enter'
+      name 'Show comparison view in version editor. (Shortcut is a suggestion)''
     end
     entry do
       command 'CMD+CTRL+Arrow Left'
-      name 'Previous recent file'
-    end
-    entry do
       command 'CMD+CTRL+Arrow Right'
-      name 'Next recent file'
+      name 'Previous/Next recent file'
     end
     entry do
+      command 'CMD+J'
       command 'CMD+Click'
       name 'Definition of symbol'
     end
@@ -48,11 +48,8 @@ cheatsheet do
     end
     entry do
       command 'CMD+ALT+Arrow Left'
-      name 'Fold section'
-    end
-    entry do
       command 'CMD+CTRL+Arrow Right'
-      name 'Unfold section'
+      name 'Fold/Unfold section'
     end
     entry do
       command 'CTRL+1'
@@ -92,7 +89,7 @@ cheatsheet do
     end
     entry do
       command 'CTRL+Space'
-      name 'Toggle completion'
+      name 'Toggle autocompletion'
     end
     entry do
       command 'CMD+CTRL+E'
@@ -100,11 +97,8 @@ cheatsheet do
     end
     entry do
       command 'CMD+]'
-      name 'Increase indentation'
-    end
-    entry do
       command 'CMD+['
-      name 'Decrease indentation'
+      name 'Increase/Decrease indentation'
     end
     entry do
       command 'CTRL+I'
@@ -116,14 +110,10 @@ cheatsheet do
     end
     entry do
       command 'CMD+ALT+['
-      name 'Move line up'
-    end
-    entry do
       command 'CMD+ALT+]'
-      name 'Move line down'
+      name 'Move line up/down'
     end
   end
-
 
   category do
     id 'Search'
@@ -145,6 +135,25 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'Source Control'
+    entry do
+      command 'ALT+CMD+C'
+      name 'Commit'
+    end
+    entry do
+      command 'ALT+CMD+D'
+      name 'Discard all changes (Shortcut is a suggestion)'
+    end
+    entry do
+      command 'ALT+CMD+P'
+      name 'Push (Shortcut is a suggestion)'
+    end
+    entry do
+      command 'ALT+CMD+X'
+      name 'Pull'
+    end
+  end
 
   category do
     id 'Navigator'
@@ -187,10 +196,6 @@ cheatsheet do
     entry do
       command 'ALT+Click'
       name 'Open in assistant navigator'
-    end
-    entry do
-      command 'ALT+SHIFT+Click'
-      name 'Decide where to open'
     end
   end
 
